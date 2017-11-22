@@ -61,6 +61,8 @@ public class MainActivity extends AppCompatActivity {
     private void selectAddress() {
         Intent intent = new Intent(this, AddressCheckActivity.class);
         startActivityForResult(intent, 666);
+
+
     }
 
     /**

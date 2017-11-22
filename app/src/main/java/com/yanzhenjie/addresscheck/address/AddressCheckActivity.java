@@ -228,6 +228,8 @@ public class AddressCheckActivity extends AppCompatActivity {
         @Override
         public void onItemClick(View view, int position) {
             setResultFinish(mOneList.get(mCurrentOneSelect), mTwoList.get(mCurrentTwoSelect), mThreeList.get(position));
+
+            
         }
     };
 
